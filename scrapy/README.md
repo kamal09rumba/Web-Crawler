@@ -5,3 +5,8 @@ https://docs.scrapy.org/en/latest/index.html
 ```
 pip install Scrapy
 ```
+
+## To export scraped data in csv file
+```
+scrapy runspider <spider name> -o fileName.csv -t csv
+```
